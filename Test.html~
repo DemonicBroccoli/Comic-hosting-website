@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<button id="theButton"> Press the button! </button>
+
+<div class="fotorama" id="popup">
+  <img src="Images/comicsImage.png">
+  <img src="Images/aboutImage.png">
+  <img src="Images/BreadDead.png">
+</div>
+
+
+</body>
+
+
+
+<footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<link  href="fotorama.css" rel="stylesheet">
+<script src="fotorama.js"></script>
+<script src="jquery.bpopup.min.js"></script>
+
+
+<script> </script>
+
+</footer>
+
+</html>
+<style>
+
+#popup {
+display: none;
+}
+
+
+</style>
+

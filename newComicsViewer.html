@@ -2,7 +2,7 @@
 
 <html>
 
-<header> <link rel="stylesheet" type="text/css" href="newNavbar.css"> </header>
+<header> <link rel="stylesheet" type="text/css" href="css/styles.css"> </header>
 
 
 <body>
@@ -21,7 +21,7 @@
 
  <div id="comicContainer">
 
-  <div class="comic"> <h4 class="smallBanner"> This is a test :) </h4> <img src="Images/BreadDead.png" class="image">  </img> </div>
+  <div class="comic" id="firstComic"> <h4 class="smallBanner"> This is a test :) </h4> <img src="Images/BreadDead.png" class="image">  </img> </div>
   <div class="comic"> <h4 class="smallBanner"> </h4> </div>
   <div class="comic"> <h4 class="smallBanner"> </h4> </div>
   <div class="comic"> <h4 class="smallBanner"> </h4> </div>
@@ -34,10 +34,26 @@
 
 
 </div>
+
+<div class="fotorama" id="popup1"  data-loop="true"  data-keyboard="true"> 
+  <img src="Images/placeholderIcon.png">
+  <img src="Images/Myself.JPG">
+  <img src="Images/Milk.jpg">
+</div>
+
+
+
 
 </body>
 
-<footer> </footer>
+<footer> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<link  href="css/fotorama.css" rel="stylesheet">
+<script src="js/fotorama.js"></script>
+<script src="js/jquery.bpopup.min.js"></script>
+
+<script src="js/comicviewing.js"> </script>
+</footer>
 
 
 </html>
@@ -52,40 +68,5 @@
   left: 300px;
   bottom: 650px;
   color: #B6C625;
-}
-#comicContainer {
-  height: 1200px;
-  width: 1320px;
-  border: solid 1px white;
-  position: relative;
-  left: 300px;
-  bottom: 650px;
-}
-.comic {
-  height: 220px;
-  width: 25%;
-  border: solid 1px white;
-  margin: 50px;
-  display: inline-block;
-
-}
-.smallBanner {
-  width: 100%;
-  height: 30px;
-  border: solid 1px white;
-  margin-top: -0px;
-  opacity: 0.8;
-  background-color: black;
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-}
-.image {
-  height: 100%;
-  width: 100%;
-  margin-top: -0px;
-  position: relative;
-  bottom: 60px;
-  z-index: -3;
 }
 </style>

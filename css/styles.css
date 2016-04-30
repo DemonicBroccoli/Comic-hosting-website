@@ -1,0 +1,207 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+#backDrop {
+	height: 1600px;
+	width: 100%;
+	background-color: #FFF4EA;
+	background-color: black;
+	position: absolute;
+	z-index: -1;
+}
+#logo {
+	height: 200px;
+	width: 200px;
+	background-color: #303522;
+	text-align: center;
+	margin-top: 10px;
+	display: inline-block;
+	border-top-right-radius: 10px;
+	box-shadow: 0px -1px 10px #1D1E1D;
+}
+#menuContainer {
+width: 200px;
+height: 440px;
+background-color: #272826;
+border-bottom-right-radius: 10px;
+margin-top: -10px;
+box-shadow: 0px 1px 10px #1D1E1D;
+}
+.menuOption {
+	width: 180px;
+	height: 50px;
+	background-color: #2E302E;
+	border: 1px solid black;
+	margin-top: 30px;
+	margin-left: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0px 1px 3px #0E0F0E;
+	color: #B6C625;
+}
+.menuOption:hover {
+	background-color: #1D1E1D;
+}
+#logoImage {
+  width: 100%;
+  height: 100%;
+}
+#backDropImage {
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	position: absolute;
+	z-index: -5;
+}
+
+
+<-- Nav bar  above-->
+
+
+
+
+#banner {
+  height: 100px;
+  width: 1320px;
+  border: solid 1px white;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+  color: #B6C625;
+}
+#comicContainer {
+  height: 1200px;
+  width: 1320px;
+  border: solid 1px white;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+}
+.comic {
+  height: 220px;
+  width: 25%;
+  border: solid 1px white;
+  margin: 50px;
+  display: inline-block;
+
+}
+.smallBanner {
+  width: 100%;
+  height: 30px;
+  border: solid 1px white;
+  margin-top: -0px;
+  opacity: 0.8;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  margin-top: -0px;
+  position: relative;
+  bottom: 60px;
+  z-index: -3;
+}
+#popup1 {
+    display: none;
+}
+
+<-- Comic page above -->
+
+#bigBox {
+	height: 1002px;
+	width: 1002px;
+	border: 1px solid white;
+	position: absolute;
+	left: 300px;
+	bottom: 550px;
+}
+#littleBox {
+	height: 802px;
+	width: 802px;
+	padding: 10%;
+	border: solid 1px white;
+}
+#littleBox h1 {
+  color: #B6C625;
+}
+#littleBox p {
+  color: #B6C625;
+}
+.box {
+	height: 300px;
+	width: 300px;
+	border: solid 1px white;
+	position: relative;
+	left: 1420px;
+}
+#box1 {
+bottom: 600px;
+}
+#box2 {
+bottom: 550px;	
+}
+#box3 {
+bottom: 500px;	
+}
+
+<-- Landing page -->
+
+.paragraph {
+  width: 80%;
+  height: 70%;
+  margin: 5%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+#aboutBanner {
+  height: 100px;
+  width: 1327px;
+  border: solid 1px white;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+  color: #B6C625;
+}
+#aboutContainer {
+  width: 1327px;
+  height: 1000px;
+  border: solid 1px white;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+}
+.pictureBox {
+  width: 300px;
+  height: 300px;
+  border: solid 1px white;
+  display: inline-block;
+}
+#rightBox {
+  float: right;
+}
+#secondParagraphBox {
+  float: right;
+  width: 77.09%;
+}
+.paragraphBox {
+  height: 300px;
+  width: 77.4%;
+  border: solid 1px white;
+  color: #B6C625;
+}
+#largeParagraphBox {
+  height: 39.5%;
+  width: 100%;
+  border: solid 1px white;
+  color: #B6C625;
+}
+
+<-- About page -->
