@@ -58,7 +58,7 @@ box-shadow: 0px 1px 10px #1D1E1D;
 }
 
 
-<-- Nav bar  above-->
+/* Nav bar  above */
 
 
 
@@ -112,7 +112,7 @@ box-shadow: 0px 1px 10px #1D1E1D;
     display: none;
 }
 
-<-- Comic page above -->
+/* Comic page above */
 
 #bigBox {
 	height: 1002px;
@@ -151,7 +151,7 @@ bottom: 550px;
 bottom: 500px;	
 }
 
-<-- Landing page -->
+/* Landing page */
 
 .paragraph {
   width: 80%;
@@ -204,4 +204,4 @@ bottom: 500px;
   color: #B6C625;
 }
 
-<-- About page -->
+/* About page */

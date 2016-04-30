@@ -39,7 +39,7 @@
   <img src="Images/placeholderIcon.png">
   <img src="Images/Myself.JPG">
   <img src="Images/Milk.jpg">
-  <img src="Images/bigHouse.jpg">
+  <img src="Images/bigHouse.jpg>
 </div>
 
 
@@ -58,3 +58,16 @@
 
 
 </html>
+
+<style>
+#banner {
+  height: 100px;
+  width: 1320px;
+  border: solid 1px white;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+  color: #B6C625;
+}
+</style>
