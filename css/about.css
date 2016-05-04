@@ -1,0 +1,52 @@
+
+.paragraph {
+  width: 80%;
+  height: 70%;
+  margin: 5%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+#aboutBanner {
+  height: 100px;
+  width: 1327px;
+  border: solid 1px white;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+  color: #B6C625;
+}
+#aboutContainer {
+  width: 1327px;
+  height: 1000px;
+  border: solid 1px white;
+  position: relative;
+  left: 300px;
+  bottom: 650px;
+}
+.pictureBox {
+  width: 300px;
+  height: 300px;
+  border: solid 1px white;
+  display: inline-block;
+}
+#rightBox {
+  float: right;
+}
+#secondParagraphBox {
+  float: right;
+  width: 77.09%;
+}
+.paragraphBox {
+  height: 300px;
+  width: 77.4%;
+  border: solid 1px white;
+  color: #B6C625;
+}
+#largeParagraphBox {
+  height: 39.5%;
+  width: 100%;
+  border: solid 1px white;
+  color: #B6C625;
+}
+
