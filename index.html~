@@ -22,7 +22,7 @@
       <div id="bigBox"> 
         <div id="littleBox">
            <h1> Daaklyn's Sandwich Shop </h1>
-           <p> This is Daaklnyn's website, for the production and advertisement of sandwiches. It's also for the display of random junk, such as comics, programs, more random junk, and written stuff.</p>
+           <p class="paragraph"> This is Daaklnyn's website, for the production and advertisement of sandwiches. It's also for the display of random junk, such as comics, programs, more random junk, and written stuff.</p>
         </div>
       </div>
   </div>

@@ -12,3 +12,17 @@
         });
 
     })(jQuery);
+;(function($) {
+        $(function() {
+
+            $('#secondComic').bind('click', function(e) {
+
+                e.preventDefault();
+
+                $('#popup2').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);

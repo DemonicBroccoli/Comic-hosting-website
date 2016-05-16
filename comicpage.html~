@@ -42,7 +42,6 @@
   <img src="Images/Sandwich.png">
 </div>
 <div class="fotorama" id="popup2" data-loop="true" data-keyboard="true" data-nav="thumbs">
-<img src="Comics/Comic1/0.JPG">
 <img src="Comics/Comic1/1.JPG">
 <img src="Comics/Comic1/2.JPG">
 <img src="Comics/Comic1/3.JPG">

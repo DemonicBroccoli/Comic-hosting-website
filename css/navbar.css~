@@ -5,7 +5,7 @@ body {
 }
 #backDrop {
 	height: 1600px;
-	width: 1905px;
+	width: 100%;
 	background-color: #FFF4EA;
 	background-color: black;
 	position: absolute;

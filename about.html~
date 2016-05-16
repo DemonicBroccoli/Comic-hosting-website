@@ -7,7 +7,7 @@
 
 <body>
   <div id="backDrop"> <img id="backDropImage" src="Images/aboutImage.jpg"> </img>   
-    <div id="logo"> <img id="logoImage" src="Images/placeholderIcon.png"> </img> </div>
+    <div id="logo"> <img id="logoImage" src="Images/troll.png"> </img> </div>
     <div id="menuContainer"> 
     <a href="index.html"> <div class="menuOption"> Home </div>   </a>
     <a href="comicpage.html"> <div class="menuOption"> Comics </div> </a>
